@@ -36,6 +36,7 @@ var config = {
 
 initCouch(function(err) {  
   if (err) {
+    console.log('error is happened')
     throw err
   }
   else {
@@ -54,7 +55,6 @@ SwaggerExpress.create(config, function(err, swaggerExpress) {
 
   // install middleware
   swaggerExpress.register(app);
-
   var port = process.env.PORT || 8080;
   app.listen(port);
 });
