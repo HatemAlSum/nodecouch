@@ -36,7 +36,7 @@ var config = {
 
 initCouch(function(err) {  
   if (err) {
-    console.log('error is happened')
+    console.log('error is happened');
     throw err
   }
   else {
