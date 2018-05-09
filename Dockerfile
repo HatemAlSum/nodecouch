@@ -1,4 +1,4 @@
-FROM node
+FROM node:8
 LABEL description="Movie API with CouchDB backend"
 LABEL maintainer="Ahmed Sabbour (asabbour@microsoft.com)"
 
