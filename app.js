@@ -40,7 +40,7 @@ initCouch(function(err) {
     throw err
   }
   else {
-    console.log('couchdb initialized');
+    console.log('couchdb initialized.');
   }
 });
 
